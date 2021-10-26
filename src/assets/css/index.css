@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #ddd;
   min-width: 320px;
   font-family: 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
