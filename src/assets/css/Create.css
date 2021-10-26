@@ -1,0 +1,62 @@
+.create {
+ max-width: 768px;
+ margin: auto;
+}
+
+.create h2 {
+  display: inline-block;
+  margin-bottom: 15px;
+  border-bottom: 3px solid slateblue;
+}
+
+.create label span {
+  display: block;
+  margin-bottom: 5px;
+}
+.create input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: #a9acac;
+}
+
+.create .ingredients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create .ingredients input,
+.create textarea {
+  width: 100%;
+}
+
+.create textarea {
+  height: 200px;
+  margin-bottom: 15px;
+  padding: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: #a9acac;
+}
+
+.create .ingredients .ingBtn {
+  height: 35px;
+  margin-left: 5px;
+  background-color: steelblue;
+}
+
+.create button {
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: lightcoral;
+}
+
+.ingred-output {
+  display: inline-block;
+  margin-bottom: 35px;
+}

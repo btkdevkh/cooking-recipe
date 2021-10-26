@@ -1,0 +1,37 @@
+.recipe {
+  max-width: 768px;
+  margin: auto;
+}
+
+.recipe-card {
+  padding: 25px;
+  border-radius: 5px;
+  color: black;
+  background-color: #ddd;
+  transition:  all 0.3s ease;
+  position: relative;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.recipe-card  h1 {
+  display: inline-block;
+  border-bottom: 4px solid white;
+}
+
+.recipe-card  h1,
+.recipe-card p,
+.recipe-card ul, hr {
+  margin-bottom: 15px;
+}
+
+.recipe-card ul {
+  list-style: none;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.recipe li {
+  margin: 5px 0;
+}

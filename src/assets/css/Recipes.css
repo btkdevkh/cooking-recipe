@@ -1,0 +1,40 @@
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+
+.recipes .card {
+  padding: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: #bbbabb;
+  transition:  all 0.3s ease;
+  position: relative;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.recipes .card:hover {
+  transform: rotate(3deg);
+}
+
+.recipes .card h3,
+.recipes .card p,
+.recipes .card div {
+  margin-bottom: 15px;
+}
+
+.recipes .card a {
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: steelblue;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .recipes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

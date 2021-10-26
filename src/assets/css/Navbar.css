@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap');
+
+.navbar {
+  padding: 15px;
+  background-color: seagreen;
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:last-child {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.navbar a:last-child:hover {
+  color: black;
+  background-color: white;
+}

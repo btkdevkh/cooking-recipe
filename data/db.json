@@ -1,0 +1,60 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pâtes au potiron",
+      "ingredients": [
+        "1  gousse d'ail",
+        "huile d'olive",
+        "1  petit verre de vin blanc",
+        "parmesan",
+        "sel (peu ou pas du tout), poivre",
+        "curry",
+        "paprika",
+        "origan",
+        "muscade ou autres épices",
+        "cube de bouillon",
+        "250  g de pâtes",
+        "400  g de potiron"
+      ],
+      "method": "1/ Mettre à chauffer l'huile d'olive dans une casserole, y faire revenir, l'oignon et l'ail. 2/ Ajouter les lardons et le potiron coupé en cubes, faire revenir le tout. 3/ Ajouter le verre de vin blanc, et un peu d'eau si nécessaire. 4/ Mettre les épices et le cube. 5/ Quand le potiron est bien cuit (en compote), ajouter la crème fraîche et le parmesan. 6/ Rectifier l'assaisonnement si nécessaire. 7/ Cuire les pâtes, les égoutter, y ajouter la sauce.",
+      "cookingTime": "45 min"
+    },
+    {
+      "title": "Madeleines au Nutella",
+      "ingredients": [
+        "5   oeufs",
+        "175  g de beurre",
+        "210  g de sucre",
+        "250  g de farine",
+        "5  g d'arôme vanille naturel",
+        "1  sachet de levure",
+        "7  c.à.s de lait entier",
+        "noisettes hachées",
+        "180  g de Nutella® (15g/portion)"
+      ],
+      "method": "1/ Faites fondre le beurre dans une casserole, réservez jusqu'à refroidissement. Mélangez à l'aide d'un fouet les œufs entiers et le sucre. Ajoutez le beurre tiède, le lait, l’arôme vanille, la farine et la levure.\n\n2/ Mélangez puis versez la préparation dans des moules à madeleines au ¾ du moule. Enfournez à 170°C.\n\n3/ Une fois refroidies, trempez le bout des madeleines dans le Nutella® (15g/portion) puis dans les noisettes hachées.",
+      "cookingTime": "40 min",
+      "id": 2
+    },
+    {
+      "title": "tytytyty",
+      "ingredients": [
+        "uiiuiui",
+        "iuioooo"
+      ],
+      "method": "ytyttytytyt",
+      "cookingTime": "40 min",
+      "id": 3
+    },
+    {
+      "title": "ertertt",
+      "ingredients": [
+        "rtrt"
+      ],
+      "method": "rtrtrt",
+      "cookingTime": "10 min",
+      "id": 4
+    }
+  ]
+}
