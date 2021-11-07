@@ -1,10 +1,36 @@
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useFetch } from '../../hooks/useFetch';
+import { projectFirestore } from '../../firebase/config';
 import '../../assets/css/Recipe.css';
 
 export default function Recipe() {
   const { id } = useParams();
-  const { datas: recipe, isPending, error } = useFetch("http://localhost:8000/recipes/"+id);
+  const [recipe, setRecipe] = useState(null);
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(null);
+
+  const handleClick = () => {
+    projectFirestore.collection('recipes').doc(id).update({
+      title: 'pie'
+    })
+  }
+
+  useEffect(() => {
+    setIsPending(true);
+
+    const unsub = projectFirestore.collection('recipes').doc(id).onSnapshot(doc => {
+      if(!doc.exists) {
+        setError("No recipes exists !");
+        setIsPending(false);
+      } else {
+        setRecipe(doc.data());
+        setIsPending(false);
+      }
+    })
+
+    return () => unsub();
+
+  }, [id])
 
   return (
     <div className="recipe">
@@ -19,6 +45,7 @@ export default function Recipe() {
           </ul>
           <hr />
           <p>{recipe.method}</p>
+          <button onClick={handleClick}>Update me</button>
         </div>
       )}
     </div>
